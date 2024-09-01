@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+body {
+    background-color: black;
+}
+header{
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(94, 91, 91);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+h1{
+    margin: 0px auto 0px 50px;
+    color: rgb(255, 255, 255);
+}
+h1 img {
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+}
+nav {
+    display: inline-block;
+    height: 100%;
+    width: 130px;
+    line-height: 2;
+    position: fixed;
+    background-color: rgba(68, 65, 65, 0.7);
+    z-index: 10;
+}
+a:visited {
+    color: rgb(177, 218, 232);
+}
+
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+nav h2 {
+    color:  rgb(158, 214, 233);
+}
+
+
+main {
+    
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: black;
+    height: 1000px;
+    width: 600px;
+}
+
+article{
+    display: block;
+    margin: 20px;
+}
+
+table {
+    width: auto;
+    margin: 0px auto;
+    margin-bottom: 40px;
+
+}
+
+th {
+    padding: 5px 5px;
+    color: white;
+    border: yellow dotted 1px;
+}
+
+td {
+    color: white;
+    border: yellow dotted 1px;
+}
+
+h2, h3 {
+    color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+h2 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.yellowcase {
+    border: yellow dotted 1px;
+}
+
+.spacer {
+    padding: 10px;
+}
+
+.code {
+    font-family: monospace;
+}
+
+#content {
+    position: static;
+    
+    
+}
